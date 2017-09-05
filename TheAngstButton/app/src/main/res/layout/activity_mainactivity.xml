@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mainactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorBlack"
+    tools:context="com.example.aashitapatwari.myapplication.MAINACTIVITY">
+
+    <TextView
+        android:text="The angst button"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:id="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog3"
+        android:id="@+id/dog3" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog5"
+        android:id="@+id/dog5"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/editText"
+        android:layout_toStartOf="@+id/editText" />
+
+    <ImageView
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog4"
+        android:id="@+id/dog4"
+        android:layout_marginTop="56dp"
+        android:layout_alignTop="@+id/dog5"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_height="110dp"
+        android:layout_width="110dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog2"
+        android:id="@+id/dog2"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="die"
+        android:bottomRightRadius="400dp"
+        android:bottomLeftRadius="400dp"
+        android:layout_width="wrap_content"
+        android:topLeftRadius="500dp"
+        android:layout_height="wrap_content"
+        android:topRightRadius="500dp"
+        android:background="@color/colorAccent"
+        android:textSize="150sp"
+        android:id="@+id/button"
+        android:fontFamily="casual"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dog2" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog8"
+        android:id="@+id/dog8"
+        android:layout_above="@+id/dog5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="56dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog7"
+        android:id="@+id/dog7"
+        android:layout_alignTop="@+id/dog5"
+        android:layout_toRightOf="@+id/dog3"
+        android:layout_toEndOf="@+id/dog3"
+        android:layout_marginTop="14dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog9"
+        android:id="@+id/dog9"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog1"
+        android:id="@+id/dog6"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/dog2"
+        android:layout_toStartOf="@+id/dog2" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/dog6"
+        android:id="@+id/dog1"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/dog7"
+        android:layout_alignStart="@+id/dog7" />
+</RelativeLayout>
